@@ -3,14 +3,7 @@
 SwiftUIで作った **検索バー付き画像検索アプリ** です。  
 Cat APIを利用して、キーワード入力で画像を取得・表示します。
 
----
-
-## Demo
-
-<p align="center">
-  <img src="search01.png" width="250">
-  <img src="search02.png" width="250">
-</p>
+ <img src="search01.png" width="250">
 
 ---
 
@@ -47,17 +40,17 @@ SwiftUI-Search-Sample/
 
 ---
 
-## 技術スタック
+## Demo
 
-- SwiftUI  
-- async/await + URLSession  
-- Swift 5.x  
-- Xcode 15.x 以上  
+<p align="center">
+  <img src="search01.png" width="250">
+  <img src="search02.png" width="250">
+</p>
 
 ---
 
 ## Author
 
-- **taka-sakamoto**  
+- **takayuki-sakamoto**  
 - GitHub: [https://github.com/taka-sakamoto](https://github.com/taka-sakamoto)
   
