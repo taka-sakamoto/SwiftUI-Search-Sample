@@ -47,8 +47,11 @@ SwiftUI-Search-Sample/
 
 ## Demo
 
-![スクリーンショット1](./search01.png)  
-![スクリーンショット2](./search02.png)
+<p align="center">
+  <img src="search01.png" width="250">
+  <img src="search02.png" width="250">
+</p>
+
 
 ---
 
