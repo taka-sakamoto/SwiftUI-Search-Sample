@@ -47,8 +47,8 @@ SwiftUI-Search-Sample/
 
 ## Demo
 
-![スクリーンショット1](./screenshot1.png)  
-![スクリーンショット2](./screenshot2.png)
+![スクリーンショット1](./search01.png)  
+![スクリーンショット2](./search02.png)
 
 ---
 
