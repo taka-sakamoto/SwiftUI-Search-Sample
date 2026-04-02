@@ -8,10 +8,10 @@
 import SwiftUI
 import Foundation
 
-struct Cat: Identifiable, Decodable {
+struct Cat: Codable, Identifiable, Equatable {
     let id: String
     let url: String
-    
+    let breeds: [Breed]?
 }
 
 /*
