@@ -45,37 +45,39 @@ The app is built with a focus on clean UI and intuitive user experience.
 
 ## 📌 Architecture
 
-MVVMアーキテクチャを採用し、責務を分離しています。
+This app follows the MVVM architecture pattern:
 
-- View：UI表示
-- ViewModel：ロジック管理（検索 / お気に入り）
-- Model：APIレスポンス・CoreData
+- View: UI representation
+- ViewModel: Business logic and state management
+- Model: API response and CoreData entities
 
 ---
 
-## 💡 Points
-🔹 CoreDataとSwiftUIの連携
-- `@FetchRequest` を使用してお気に入り一覧を自動更新
-- `NSManagedObjectContext` をEnvironmentで管理
-🔹 UI/UXの工夫
-- 画像上にお気に入りボタンを配置（直感的操作）
-- ローディング中の状態を明確化
-- 空状態UIでユーザーに行動を促す
-🔹 設計
-- 検索機能とお気に入り機能をViewModelで分離
-- 責務を明確にして保守性を向上
+## 💡 Key Points
+
+### 🔹 CoreData Integration
+- Used `@FetchRequest` to automatically update the favorites list
+- Managed `NSManagedObjectContext` via Environment
+
+### 🔹 UI/UX Design
+- Favorite button placed on top of the image for intuitive interaction
+- Clear loading indication using ProgressView
+- Empty state UI to guide user actions
+
+### 🔹 Clean Architecture
+- Separated search logic and favorite logic into different ViewModels
+- Improved maintainability and readability
 
 ---
 
 ## 🔧 Future Improvements
-- 猫種情報の表示改善
-- お気に入りの並び替え
-- UIのブラッシュアップ（ダークモード対応など）
-
+- Improve breed information display
+- Add sorting functionality for favorites
+- UI enhancements (e.g. Dark Mode support)
+  
 ---
 
 ## 🧑‍💻 Author
-
 GitHub: https://github.com/taka-sakamoto
 
 
