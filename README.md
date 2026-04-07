@@ -29,17 +29,18 @@
 ---
 
 ## 📸 Screenshots
-検索画面
- <img src="screenshot1.png" width="250">
+## 検索画面  
+ <img src="screenshot1.png" width="250">  
 
-詳細画面（お気に入りボタン付き）
- <img src="screenshot2.png" width="250">
+## 詳細画面（お気に入りボタン付き）  
+ <img src="screenshot2.png" width="250">  
+ 
+## お気に入り一覧  
+ <img src="screenshot3.png" width="250">  
 
-お気に入り一覧
- <img src="screenshot3.png" width="250">
+## 空状態UI  
+ <img src="screenshot4.png" width="250"> 
 
-空状態UI
- <img src="screenshot4.png" width="250">
 ---
 
 ## 📌 Architecture
