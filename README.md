@@ -1,21 +1,21 @@
 # 🐱 Cat Search App（SwiftUI × CoreData）
 
-📱 Overview
+## 📱 Overview
 
-猫の画像を検索し、お気に入り登録ができるiOSアプリです。
-シンプルなUIと直感的な操作を意識して設計しています。
+This is a simple iOS app that allows users to search for cat images and save their favorites.  
+The app is built with a focus on clean UI and intuitive user experience.
 
 ---
 
 ## 🚀 Features
 
-- 猫画像の検索（API連携）
-- ローディング表示（ProgressView）
-- 詳細画面で猫情報を表示
-- お気に入り登録（CoreData）
-- お気に入り一覧表示
-- お気に入り削除（スワイプ対応）
-- 空状態UI（お気に入り未登録時の案内表示）
+- Search cat images using API
+- Display loading state with ProgressView
+- Show detailed information of each cat
+- Add and remove favorites (CoreData)
+- Favorites list view
+- Swipe to delete favorites
+- Empty state UI when no favorites are added
 
 ---
 
@@ -23,7 +23,7 @@
 
 - SwiftUI
 - CoreData
-- MVVM
+- MVVM Architecture
 - AsyncImage
 
 ---
