@@ -103,6 +103,9 @@ struct ContentView: View {
             .onChange(of: viewModel.query) {
                 viewModel.cats = []
             }
+            NavigationLink("お気に入り一覧") {
+                FavoritesView()
+            }
             
         }
     }

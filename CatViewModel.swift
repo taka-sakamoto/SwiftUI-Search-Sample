@@ -8,6 +8,7 @@
 import SwiftUI
 import Foundation
 import Combine
+import CoreData
 
 class CatViewModel: ObservableObject {
     
@@ -17,6 +18,8 @@ class CatViewModel: ObservableObject {
     @Published var errorMessage: String? = nil
     @Published var breeds: [Breed] = []
     @Published var selectedBreed: Breed?
+    
+    
     
     func fetchCats() async {
         guard let url = URL(string: "https://api.thecatapi.com/v1/images/search?limit=10") else {
@@ -98,6 +101,7 @@ class CatViewModel: ObservableObject {
         }
         
     }
+   
 
 }
 

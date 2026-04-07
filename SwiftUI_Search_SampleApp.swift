@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import CoreData
 
 @main
 struct SwiftUI_Search_SampleApp: App {
+    
+    let persistencecontroller = PersistenceController.shared
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, persistencecontroller.container.viewContext)
         }
     }
 }
